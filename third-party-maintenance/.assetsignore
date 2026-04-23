@@ -1,0 +1,12 @@
+# Exclude non-static files from Cloudflare Workers upload.
+# See https://developers.cloudflare.com/workers/static-assets/binding/#ignoring-assets
+
+.git/
+.wrangler/
+.dev.vars
+
+wrangler.toml
+.assetsignore
+.gitignore
+
+CLAUDE.md

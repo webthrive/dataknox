@@ -1,0 +1,7 @@
+# Static HTML site — served at the edge via Cloudflare Workers static assets.
+name = "dataknox-tpm"
+compatibility_date = "2026-04-23"
+
+[assets]
+directory = "."
+not_found_handling = "404-page"
